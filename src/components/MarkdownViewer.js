@@ -19,7 +19,9 @@ function MarkdownViewer({addedText}){
                 <textarea value={md} onChange={handleMd}></textarea>
             </div>
             <div className="viewer">
-                <ReactMarkdown children={md}/>
+                <div className="inner-viewer">
+                    <ReactMarkdown children={md}/>
+                </div>
             </div>
         </div>
     )

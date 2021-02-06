@@ -13,6 +13,7 @@ function App() {
     <div className="main">
 
       <h1>Welcome to Tools MD</h1>
+      <p> Click A Button and Begin</p>
       {/* Tool Bar */}
       <div className="wrapper">
         <div className="tools">

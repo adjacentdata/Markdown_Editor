@@ -2,6 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+.main h1, p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 15px 15px;
+}
+
+.main h1{
+  font-size: 40px;
+}
+
+.main p{
+  font-size: 25px;
 }
 
 .wrapper{
@@ -9,6 +23,7 @@
   grid-template-columns: auto 1fr;
   gap: 0px;
   border: 2px solid black;
+  background: linear-gradient(85deg, red 60%, blue);
 }
 
 .tools{
