@@ -5,13 +5,27 @@
 
 }
 
-.main h1, p{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 15px 15px;
+.header{
+  display: flex;
+  flex-direction: row;
+
 }
 
-.main h1{
-  font-size: 40px;
+img{
+  padding-left: 30px;
+  height: 130px;
+  border-radius: 15px;
+}
+
+.main{
+  background-color: rgb(110, 63, 184);
+}
+
+.main p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 15px 15px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
 }
 
 .main p{
@@ -23,19 +37,35 @@
   grid-template-columns: auto 1fr;
   gap: 0px;
   border: 2px solid black;
-  background: linear-gradient(85deg, red 60%, blue);
+  background: linear-gradient(150deg, rgb(90, 63, 184) 60%, blue);
 }
 
 .tools{
   display: flex;
   flex-direction: column;
   width: 150px;
-  overflow-y: scroll;
+  margin-left: 10px;
+  position: sticky;
+  top: 0;
+  height: 100vh
 }
 
 .tools h3{
   text-align: center;
   text-shadow: 1px 1px 2px black;
   color: white;
-  background-color: aqua;
+  background-color: rgb(72, 168, 247);
+  margin-right: 10px;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 10px;
+}
+.tools button {
+  margin-right: 10px;
+  margin-top: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.tools button:hover{
+  box-shadow: 3px 3px 3px black;
+  transition: all ease .2s;
 }
