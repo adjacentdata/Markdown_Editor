@@ -29,5 +29,13 @@
 .tools{
   display: flex;
   flex-direction: column;
-  width: 150px
+  width: 150px;
+  overflow-y: scroll;
+}
+
+.tools h3{
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  background-color: aqua;
 }
