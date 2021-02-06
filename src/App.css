@@ -6,17 +6,13 @@
 
 .wrapper{
   display: grid;
-  grid-template-columns: minmax(0px, auto);
-  grid-template-areas: "toolbar markdown";
+  grid-template-columns: auto 1fr;
+  gap: 0px;
+  border: 2px solid black;
 }
 
 .tools{
-  grid-area: toolbar;
   display: flex;
   flex-direction: column;
-  width: 150px;
-}
-
-.viewer{
-  grid-area: markdown;
+  width: 150px
 }

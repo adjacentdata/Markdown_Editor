@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown'
+import "../components/MarkdownViewer.css"
 
 function MarkdownViewer({addedText}){
     const[md, setMd] = useState("")
@@ -13,14 +14,13 @@ function MarkdownViewer({addedText}){
 
     },[addedText])
     return(
-        <div>
-            <div>
+        <div className="md-components">
+            <div className="text-screen">
                 <textarea value={md} onChange={handleMd}></textarea>
             </div>
-            <div>
+            <div className="viewer">
                 <ReactMarkdown children={md}/>
             </div>
-
         </div>
     )
 }
