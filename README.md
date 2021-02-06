@@ -1,7 +1,7 @@
-# Markdown Editor 
+# Markdown Editor
 
 A fast and efficient way to create Markdown documents!
-Click here: [Tools MD](https://toolsmd.netlify.app/)
+Click here: [Tools MD](https://supermarkdown.netlify.app//)
 
 # Getting Started with Create React App
 
