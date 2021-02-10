@@ -1,7 +1,16 @@
 # Markdown Editor
 
 A fast and efficient way to create Markdown documents!
+
 Click here: [Tools MD](https://supermarkdown.netlify.app//)
+
+## Purpose
+
+This tool allows writers to organize their data in a simple and efficient way. Simplicity is the key to this project. I hope to add more tools to this project in the future. 
+
+# To run the program, please read the notes below
+
+___
 
 # Getting Started with Create React App
 
