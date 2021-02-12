@@ -25,8 +25,9 @@ function App() {
             <Button type="button" value={"#"} onClick={handleButton} variant="contained" color="inherit">Heading</Button>
             <Button type="button" value={"##"} onClick={handleButton} variant="contained" color="inherit">Heading 2</Button>
             <Button type="button" value={"###"} onClick={handleButton} variant="contained" color="inherit">Heading 3</Button>
-            <Button type="button" value={"***Text***"} onClick={handleButton} variant="contained" color="inherit">Bold</Button>
+            <Button type="button" value={"**Text**"} onClick={handleButton} variant="contained" color="inherit">Bold</Button>
             <Button type="button" value={"*Text*"} onClick={handleButton} variant="contained" color="inherit">Italicize</Button>
+            <Button type="button" value={"***Text***"} onClick={handleButton} variant="contained" color="inherit">Bold Italicize</Button>
             <Button type="button" value={"> \n Note: ReactMarkdown does not support BlockQuotes"} onClick={handleButton} variant="contained" color="inherit">BlockQuote</Button>
             <Button type="button" value={"-\n-\n-"} onClick={handleButton} variant="contained" color="inherit">Unordered List</Button>
             <Button type="button" value={"1.\n 2.\n 3."} onClick={handleButton} variant="contained" color="inherit">Ordered List</Button>
