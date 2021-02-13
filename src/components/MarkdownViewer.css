@@ -13,7 +13,7 @@
     width: 100%;
     height: 150vh;
     min-width: 240px;
-    font-size: 25px;
+    font-size: 15px;
     padding: 15px;
 }
 .viewer{
@@ -24,4 +24,6 @@
 .viewer .inner-viewer{
     padding-left: 20px;
     padding-top: 15px;
+    font-size: 12px;
+    min-height: 150vh;
 }

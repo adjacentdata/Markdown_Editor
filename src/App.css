@@ -47,7 +47,8 @@ img{
   margin-left: 10px;
   position: sticky;
   top: 0;
-  height: 100vh
+  height: 100vh;
+  overflow: scroll;
 }
 
 .tools h3{
@@ -59,6 +60,7 @@ img{
   box-shadow: 2px 2px 2px black;
   margin-top: 10px;
 }
+
 .tools button {
   margin-right: 10px;
   margin-top: 5px;
