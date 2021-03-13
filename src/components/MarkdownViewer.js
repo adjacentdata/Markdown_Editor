@@ -6,6 +6,7 @@ import "../components/MarkdownViewer.css"
 function MarkdownViewer({addedText}){
     const[text, setText] = useState("")
     function handleMd (event){
+        event.preventDefault()
         setText(event.target.value)
     }
     useEffect(()=>{
