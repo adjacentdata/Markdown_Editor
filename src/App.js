@@ -2,7 +2,7 @@ import React, {useState } from 'react'
 import './App.css';
 import MarkdownViewer from './components/MarkdownViewer'
 import {Button} from '@material-ui/core'
-import logo from './img/supermarkdown-logo.png'
+import logo from './img/toolsmd.png'
 
 function App() {
   const [text, setText] = useState('')
