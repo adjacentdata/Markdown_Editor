@@ -1,11 +1,8 @@
-# SuperMarkDown
+# Markdown Editor
 
 Please read the documentation below before starting your first project.
 
 ---
-
-To use this application click the link below:
-[SuperMarkDown](https://supermarkdown.netlify.app/)
 
 ## Purpose
 
